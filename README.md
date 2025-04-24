@@ -8,44 +8,30 @@
     <meta name="theme-color" content="#000000">
     <link rel="apple-touch-icon" href="./static/media/icons/media/icons/icon-72x72.png">
     <link rel="manifest" href="./manifest.json">
-
     <meta name="author" content ="CRYKER (っ▀¯▀)つ">
     <meta name="description" content="CRYKER Dev | BackEnd Engineer | UI/UX Developer | Web3 Engineer | BD Admon">
-
     <title>CRYKER Dev | BackEnd Engineer | UI/UX Developer | Web3 Engineer | BD Admon</title>
-    
-    <?php /* INCLUSION DE BOTSTRAP */ ?>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    
-    <!-- <script defer="defer" src="./static/js/main.a74e167d.js"></script> -->
-
     <link href="./static/css/main.css" rel="stylesheet">
-
     <link rel="stylesheet" type="text/css" href="./static/css/chunk.css">
-
-
     <style id="stndz-style">
         div[class*="item-container-obpd"],
         a[data-redirect*="paid.outbrain.com"],
         a[onmousedown*="paid.outbrain.com"] {
             display: none !important;
         }
-
         a div[class*="item-container-ad"] {
             height: 0px !important;
             overflow: hidden !important;
             position: absolute !important;
         }
-
-        div[data-item-syndicated="true"] {
+       div[data-item-syndicated="true"] {
             display: none !important;
         }
-
         .grv_is_sponsored {
             display: none !important;
         }
-
         .zergnet-widget-related {
             display: none !important;
         }
@@ -79,7 +65,6 @@
                     <img src="./static/media/main/dev.png" style="width: 80%;">
                 </div>
             </div>
-
             <!-- S2 -->
             <div class="tooling hidden show my-5">
                 <div class="tooling-title ">
@@ -174,7 +159,6 @@
                             <h5>Node.js</h5>
                         </div>
                     </div> -->
-                    
                     <div class="box-content col-xs-11 col-md-4 row">
                         <div class="box-icon col-3 my-auto">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="30px">
@@ -185,7 +169,6 @@
                             <h5>DateRangePicker</h5>
                         </div>
                     </div>
-                    
                     <div class="box-content col-xs-11 col-md-4 row">
                         <div class="box-icon col-3 my-auto">
                             <img src="./static/media/main/chartjs.png" width="50px">
@@ -206,7 +189,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- S3 -->
             <div class="tooling hidden show">
                 <div class="tooling-title">
@@ -241,7 +223,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- S5 -->
             <div class="quote hidden show">
                 <div class="quote-body">
@@ -259,7 +240,6 @@
                 </div>
             </div>
         </div>
-
         <?php
         include_once("./components/footer.php");
         ?>
