@@ -1,1 +1,3 @@
-Enter file contents here
+<?php 
+  include_one('indes.php');
+?>
