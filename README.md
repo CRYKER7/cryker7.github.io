@@ -43,7 +43,9 @@
             </div>
             <div class="menu-toggle">
                 <input type="checkbox" class="nav__checkbox" id="nav-toggle">
-                <label for="nav-toggle" class="nav__button"><span class="nav__icon">&nbsp;</span></label>
+                <label for="nav-toggle" class="nav__button">
+                    <span class="nav__icon">&nbsp;</span>
+                </label>
                 <div class="navigation">
                     <div class="large_menu">
                         <a class="github" href="https://github.com/CRYKER7" target="_blank">
@@ -98,7 +100,9 @@
                         <p><span>✌🏻</span> Hola soy Cryker</p>
                     </div>
                     <div class="content-primary">
-                        <h2><span>Ingeniero Backend</span></br>He ayudado a las empresas <span>Mejorando</span> y
+                        <h2>
+                            <span>Ingeniero Backend</span></br>
+                            He ayudado a las empresas <span>Mejorando</span> y
                             <span>Haciendo Crecer</span> sus productos/proyectos
                         </h2>
                     </div>
