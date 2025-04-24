@@ -20,7 +20,6 @@
                     <img src="./static/media/main/dev.png" style="width: 80%;">
                 </div>
             </div>
-
             <!-- S2 -->
             <div class="tooling hidden show my-5">
                 <div class="tooling-title ">
@@ -115,7 +114,6 @@
                             <h5>Node.js</h5>
                         </div>
                     </div> -->
-                    
                     <div class="box-content col-xs-11 col-md-4 row">
                         <div class="box-icon col-3 my-auto">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="30px">
@@ -126,7 +124,6 @@
                             <h5>DateRangePicker</h5>
                         </div>
                     </div>
-                    
                     <div class="box-content col-xs-11 col-md-4 row">
                         <div class="box-icon col-3 my-auto">
                             <img src="./static/media/main/chartjs.png" width="50px">
@@ -147,7 +144,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- S3 -->
             <div class="tooling hidden show">
                 <div class="tooling-title">
@@ -182,7 +178,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- S5 -->
             <div class="quote hidden show">
                 <div class="quote-body">
