@@ -12,7 +12,7 @@ function cargarPeticion() {
     const contenedor = document.getElementById("contenido-principal");
 
     if (pet) {
-        fetch(`pages/${pet}.html`)
+        fetch(`static/pages/${pet}.html`)
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Página no encontrada');
@@ -28,7 +28,7 @@ function cargarPeticion() {
             });
     } else {
         // Si no hay parámetro, puedes cargar una página por defecto
-        fetch(`pages/main.html`)
+        fetch(`static/pages/main.html`)
             .then(response => response.text())
             .then(html => {
                 contenedor.innerHTML = html;
