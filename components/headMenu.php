@@ -31,11 +31,13 @@
             </div>
             <div class="small_menu">
                 <ul>
+                    <!-- echo ($pet == 'work' ? 'aria-current="page"' : '') -->
                     <li class="menu-one">
-                        <a <?php echo ($pet == '' ? 'aria-current="page"' : '') ?> class="nav-linkL <?php echo ($pet == '' ? "active" : '') ?>" href="?pet=">Inicio</a>
+                        <a class="nav-linkL" href="?pet=">Inicio</a>
                     </li>
                     <li class="menu-two">
-                        <a <?php echo ($pet == 'work' ? 'aria-current="page"' : '') ?> class="nav-linkL <?php echo ($pet == 'work' ? "active" : '') ?>" href="?pet=work">Trabajos</a>
+
+                        <a class="nav-linkL" href="?pet=work">Trabajos</a>
                     </li>
                     <li class="menu-four">
                         <a class="nav-linkL" href="https://drive.google.com/file/d/1zG681HGCIW5Bk5jWQs67jhw2UIqa_6pp/view?usp=sharing" target="_blank">Resumen</a>
