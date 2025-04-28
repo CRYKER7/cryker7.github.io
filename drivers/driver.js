@@ -8,6 +8,6 @@ function cargarComponente(id, ruta) {
 }
 
 // Carga los componentes
-cargarComponente("head", "./components/head.html");
-cargarComponente("nav", "./components/headMenu.html");
-cargarComponente("footer", "./components/footer.html");
+cargarComponente("head", "components/head.html");
+cargarComponente("nav", "components/headMenu.html");
+cargarComponente("footer", "components/footer.html");
