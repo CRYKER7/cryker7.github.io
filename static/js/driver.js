@@ -11,3 +11,4 @@ function cargarComponente(id, ruta) {
 cargarComponente("head", "components/head.html");
 cargarComponente("nav", "components/headMenu.html");
 cargarComponente("footer", "components/footer.html");
+cargarComponente("contenido", "pages/main.html");
