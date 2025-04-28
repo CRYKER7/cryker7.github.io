@@ -1,16 +1,10 @@
 <!DOCTYPE html>
 <html lang="es_MX">
-    <?php
-        include_once("./components/head.php");
-    ?>
+<div id="head"></div>
 
 <body>
-    <div id="root">
-        <div class="main">
-            <?php
-                include_once("./components/headMenu.php");
-            ?>
-
+    <div>
+        <div id="nav"></div>
             <div class="work">
                 <div class="work-header m-1">
                     <h1><span>{</span>Mis trabajos<span>}</span></h1>
@@ -147,9 +141,7 @@
                 </div>
             </div>
 
-            <?php
-            include_once("./components/footer.php");
-            ?>
+            <div id="footer"></div>
         </div>
     </div>
 </body>
